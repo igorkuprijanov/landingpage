@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiam</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="applypage">
+        <div>
+                <nav>
+                    <ul id="list1">
+                        <li class="firstlist"><button class="navitem" onclick="window.location.href = './index.html'">Home</button></li>
+                          <li class="firstlist"><button class="navitem" onclick="window.location.href='./contacts.html'">Contacts</button></li>
+                        <li class="firstlist"><button class="navitem" onclick="window.location.href='./about.html'">About</button></li>
+                        <li class="firstlist" id="last"><button class="navitem" onclick="window.location.href='./form.html'">Form</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="leftside">
+            <div id="applypictxt">
+            <h1> Quisque a nisi porta nibh scelerisque faucibus. In sagittis ligula.</h1>
+            <p id="applyparagraphtext">Pellentesque lorem eros, posuere ac commodo non, sodales ut lectus. Aliquam et elit quis justo interdum viverra.</p>
+            </div>
+            <img id="applyimg" src="pink-and-white-jellyfish-under-water-3490347.jpg">
+            </div>
+            <div id="form">
+                <form>
+                  <div id="applytext">
+                <h3>Suspendisse potenti. Cras velit felis, dictum id condimentum id, consectetur vel urna.</h3>
+            </div>
+                  <div id="apply1">
+                   <label>First Name</label><br>
+                    <input class='applyinput' name="firstname" type="text"><br>
+                    <label>Surename</label><br>
+                    <input class='applyinput' name="surename" type="text"><br>
+                    <label>E-mail</label><br>
+                    <input class='applyinput' name="mail" type="email"><br>
+                    </div>
+                    <div id="apply2">
+                    <label id="choose">Choose service:</label><br>
+                    <input class='applyinput' id="option1" name="service" type="checkbox">
+                    <label for='option1'>Aenean laoreet</label><br>
+                    <input class='applyinput' id="option2" name="service" type="checkbox">
+                    <label for='option2'>Aenean laoreet</label><br>
+                    <input class='applyinput' id="option3" name="service" type="checkbox">
+                    <label for='option3'>Aenean laoreet</label><br>
+                    </div>
+                    <div id="apply3">
+                    <label>Comment</label><br>
+                    <textarea class='applyinput' rows="4" cols="50"></textarea><br>
+                    </div>
+                    <button id="applybutton" class="navitem">Submit</button>
+                </form>
+            </div>
+    </div>
+</body>
+</html>
